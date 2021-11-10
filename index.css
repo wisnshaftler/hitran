@@ -1,0 +1,51 @@
+body{
+    height: 70vh;
+}
+
+.playground{
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    border: 3px orange solid;
+    position: relative;
+}
+
+.topLine{
+    display: flex;
+}
+
+.bomb, .sadmanitha, .simpran {
+    position: absolute;
+}
+
+
+.how-to-play, .play, .leaderboard, .scoreBoard{
+    text-align: center;
+    display: block;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.3vw;
+}
+
+.how-to-play:hover, .play:hover, .leaderboard:hover, .scoreBoard:hover{
+    background-color: black;
+    color:white;
+}
+
+.name{
+    width: 90vw;
+    margin-left: 5%;
+    height: 5%;
+    border:dashed orange 2px;
+    font-size: 100%;
+}
+
+.timeleft{
+    margin-top: 5px;
+    width: 90vw;
+    margin-left: 5%;
+    height: auto;
+    font-size: 1.2rem;
+}
